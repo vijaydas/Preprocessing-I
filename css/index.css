@@ -134,3 +134,16 @@ html,
 body {
   height: 100%;
 }
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Libre Franklin', sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.container {
+  width: 880px;
+  margin: auto;
+}
