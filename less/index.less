@@ -54,6 +54,40 @@ table {
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
+
+// Variables
+@cornflower-blue: #6195ED;
+@libre-franklin: 'Libre Franklin', sans-serif;
+
+
+h1, h2, h3, h4, h5 {
+    font-family: @libre-franklin;
+    letter-spacing: 1px;
+}
+
+
+
+// Mix-ins
+
+.center() {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+  
+
+
+// styling
+
+.container {
+    width: 880px;
+    margin: auto;
+}
+
+.top-box {
+	background-color: grey;
+}
+
 
